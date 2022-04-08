@@ -1,0 +1,19 @@
+Através desta tarefa, você deve enviar a solução para o exercício da Prova 2. 
+
+Os exercícios estarão disponíveis às 7:00 do dia 20/jan/2022. IMPORTANTE: você deve resolver apenas um deles, para saber qual deles acesse a seguinte planilha:
+
+https://docs.google.com/spreadsheets/d/1-VQjQDEa7zeVY1pWNWkyOxjB2d1zvpNauJjuLf88Jj0/edit?usp=sharing
+
+Para ver os exercícios da prova, acesse o repositório da turma:
+
+https://github.com/fmarquesfilho/algoritmos-2021.2/tree/main/prova2
+
+Antes de enviar sua solução via esta tarefa, atente ao seguinte:
+
+- o programa enviado produz a saída esperada e roda sem erros
+- você anexou o arquivo .py a tarefa antes do fechamento da mesma
+- você não copiou a sua solução de ninguém, ela foi inteiramente produzida por você
+
+Esta tarefa passará a aceitar envios a partir das 7:20, e encerra as submissões às 8:00, totalizando 1 hora de prova. 
+
+Você pode enviar a solução quantas vezes quiser, o último envio será considerado e os demais descartados.
