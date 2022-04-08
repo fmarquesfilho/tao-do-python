@@ -13,10 +13,3 @@ Digite o limite superior: 10
 < fim de execução >
 ''' 
 
-x = int(input("Digite o limite inferior: "))
-y = int(input("Digite o limite superior: "))
-
-i = x + 1
-while i < y:
-    print(i)
-    i = i + 1

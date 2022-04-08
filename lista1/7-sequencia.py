@@ -10,9 +10,4 @@ Digite um número inteiro: 5
 < fim de execução >
 ''' 
 
-n = int(input("Digite um número inteiro: "))
 
-i = 0
-while i < 5:
-    print(n + i + 1)
-    i = i + 1
