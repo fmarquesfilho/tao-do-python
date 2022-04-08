@@ -18,7 +18,7 @@ def tempo_preparacao(camadas):
     return TEMPO_PREPARACAO * camadas
     
 def tempo_total_gasto(camadas, tempo_gasto):
-    return tempo_preparacao(camadas) + tempo_gasto
+    return 0
 
 # programa principal
 camadas = int(input("Digite o número de camadas da lasanha (cada camada leva 2 minutos pra ser preparada): "))

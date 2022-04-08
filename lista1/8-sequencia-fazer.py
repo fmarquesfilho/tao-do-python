@@ -10,10 +10,3 @@ Quantos inteiros você deseja imprimir a partir do 5? 3
 < fim de execução >
 ''' 
 
-n = int(input("Digite um número inteiro: "))
-k = int(input("Quantos números você deseja imprimir a partir do {}? ".format(n)))
-
-i = 0
-while i < k:
-    print(n + i + 1)
-    i = i + 1

@@ -25,10 +25,7 @@ def calcula(cmd, a, b):
         case 'div':
             return a / b
         # adicione as operações aqui
-        case 'exp':
-            return a ** b
-        case 'dii':
-            return a // b
+        # >>>>
         case _:
             raise ValueError("Operação inválida")
 

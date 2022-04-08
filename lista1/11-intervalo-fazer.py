@@ -13,15 +13,3 @@ Foram encontrados 2 números pares no intervalo entre 6 e 9.
 < fim de execução >
 ''' 
 
-x = int(input("Digite o limite inferior: "))
-y = int(input("Digite o limite superior: "))
-
-i = x
-pares = 0
-while i <= y:
-    if i % 2 == 0:
-        print(i)
-        pares = pares + 1
-    i = i + 1
-
-print("Foram encontrados {} números pares no intervalo entre {} e {}.".format(pares, x, y))

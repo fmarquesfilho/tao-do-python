@@ -14,10 +14,3 @@ Digite o limite superior: 9
 ''' 
 
 
-x = int(input("Digite o limite inferior: "))
-y = int(input("Digite o limite superior: "))
-
-i = x
-while i <= y:
-    print(i)
-    i = i + 1

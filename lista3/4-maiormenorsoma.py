@@ -11,29 +11,4 @@
   elementos do conjunto.
 '''
 
-# inicialização das variáveis
-primeira_vez = True
-fim = False
 
-while not fim:
-    entrada = input("digite um número inteiro ou sair: ")
-    if entrada == "sair":
-        # sair do programa
-        fim = True
-        if primeira_vez:
-            print("Nenhum número foi digitado. Até logo!")
-        else:
-            print("A soma dos números é {}. O maior número é {} e o menor é {}.".format(soma, maior, menor))
-    else:
-        x = int(entrada) # entrada é um número inteiro
-        if primeira_vez:
-            maior = x
-            menor = x
-            soma = x
-            primeira_vez = False
-        else:
-            if x > maior:
-                maior = x
-            elif x < menor:
-                menor = x
-            soma = soma + x

@@ -12,22 +12,3 @@ correspondente.
 caso contrário imprime "Reprovado"
 ''' 
 
-f1 = float(input("Digite o primeiro número: "))
-f2 = float(input("Digite o segundo número: "))
-
-if f1 >= 0 and f1 <= 10 and f2 >= 0 and f2 <= 10:
-    media = (f1 + f2) / 2
-    print("A média entre {} e {} é {:.2f}".format(f1, f2, media))
-    if media >= 8:
-        print("Super aprovado")
-    elif media >= 5:
-        print("Aprovado")
-    else:
-        print("Recuperação")
-        rec = float(input("Digite a nota da recuperação: "))
-        if rec >= 6:
-            print("Aprovado")
-        else:
-            print("Reprovado")
-else:
-    print("Digite notas entre 0 e 10.")

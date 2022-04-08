@@ -101,37 +101,8 @@ def iniciar(programa, nivel):
         encher(nivel)
 
     print("Iniciando...")
-    match programa:
-        case 1: # leve, sem molho
-            lavagem()
-            esvaziar(nivel)
-            encher(nivel)
-            enxague()
-            esvaziar(nivel)
-            centrifugacao()
-        case 2: # lavagem completa passando por todas as etapas
-            molho()
-            esvaziar(nivel)
-            encher(nivel)
-            lavagem()
-            esvaziar(nivel)
-            encher(nivel)
-            enxague()
-            esvaziar(nivel)
-            centrifugacao()
-        case 3: # lavagem completa com duplo enxágue
-            molho()
-            esvaziar(nivel)
-            encher(nivel)
-            lavagem()
-            esvaziar(nivel)
-            encher(nivel)
-            enxague()
-            esvaziar(nivel)
-            encher(nivel)
-            enxague()
-            esvaziar(nivel)
-            centrifugacao()
+    
+    # >>>> MODIFIQUE AQUI <<<<<<
 
     print("Finalizando a lavagem...")
 

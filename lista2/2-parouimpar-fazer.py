@@ -7,10 +7,7 @@ def impar(n):
     # escreva o seu código aqui para que a função tenha o
     # comportamento esperado, que é retornar verdadeiro quando
     # o número passado é ímpar, e falso quando é par
-    if n % 2 > 0:
-        return True
-    else:
-        return False
+    return True
 
 # não é pra mexer no código abaixo
 numero = int(input("Digite um número inteiro: "))
