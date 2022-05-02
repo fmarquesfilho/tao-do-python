@@ -2,24 +2,22 @@
 Escreva um programa que lê um número inteiro, 
 e imprime se esse número é par ou ímpar.
 ''' 
-# Soma dois inteiros e retorna o resultado. Recebe como entrada
-#
+def par(i):
+    resto = i % 2
+    if resto == 0:
+        return True
+    else:
+        return False
 
-def soma(a: int, b: int):
-    x = a + b
-    return x
+def impar(i):
+    return not par(i)
 
-def subtrai(a, b):
-    x = a - b
-    return x
+mensagem = "Digite um número inteiro: "
+entrada = input(mensagem)
+i = int(entrada)
 
-som = soma(4, 3)
-sub = subtrai(4, 3)
+if par(i):
+    print("O número é par.")
 
-a = 5
-a = sub
-a = soma(a, sub)
-
-mensagem_soma = "A soma é"
-print(mensagem_soma, a)
-print("A subtração é", sub)
+if impar(i):
+    print("O número é ímpar.")
