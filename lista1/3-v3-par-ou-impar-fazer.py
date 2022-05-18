@@ -14,19 +14,14 @@ def par(i):
 def impar(i):
     return not par(i)
 
+
+def diferentes(a, b):
+    return (par(a) or par(b)) and (impar(a) or impar(b))
+
+
 x = int(input("Digite o primeiro número inteiro: "))
 y = int(input("Digite o segundo número inteiro: "))
-
-# as expressões são avaliadas de dentro pra fora
-# ou seja, primeiro se avalia par(x) or par(y)
-# que só será verdadeira caso pelo menos 1 dos 
-# números seja par. Caso seja verdadeiram avalia-se 
-# impar(x) or impar(y) qye segue a mesma lógica,
-# sendo verdadeira quando pelo menos 1 dos números
-# seja ímpar. Dessa forma conseguimos fazer exatamente
-# o que foi pedido no enunciado, ou seja, imprimimos
-# apenas quando um número é par e o outro é ímpar.
  
-if ( (par(x) or par(y)) and (impar(x) or impar(y)) ):
+if diferentes(x, y):
     print("um número é ímpar e o outro é par.")
 

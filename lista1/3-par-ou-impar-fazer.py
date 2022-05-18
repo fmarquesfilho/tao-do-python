@@ -18,8 +18,8 @@ x = int(input("Digite o primeiro número inteiro: "))
 y = int(input("Digite o segundo número inteiro: "))
 
 # exemplo usando o operador lógico not
-if par(x) and not par(y):
+if par(x) and impar(y):
     print("x é par e y é ímpar.")
 
-if not par(x) and par(y):
+if impar(x) and par(y):
     print("x é ímpar e y é par.")
